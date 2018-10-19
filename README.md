@@ -31,3 +31,8 @@ import 'element-theme-chalk/lib/select.css';
 
 // ...
 ```
+## 设计思路
+  * 先设计出来一套静态主题
+  * 使用scss抽离，可复用
+  * 与js操作无关，完全独立
+  * 抽象出自定义主题
